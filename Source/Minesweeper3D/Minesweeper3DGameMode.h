@@ -13,6 +13,10 @@ class AMinesweeper3DGameMode : public AGameModeBase
 
 public:
 	AMinesweeper3DGameMode();
+
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		//int Tile** tiles;
+	
 };
 
 

@@ -15,6 +15,14 @@ public:
 	// Sets default values for this actor's properties
 	ATile();
 
+	// Number of mines around tile
+	int number;
+	// If this tile is currently flagged
+	bool flagged;
+	// If this tile has been revealed yet
+	bool revealed;
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

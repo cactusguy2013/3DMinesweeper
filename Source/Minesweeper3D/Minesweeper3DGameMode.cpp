@@ -14,4 +14,7 @@ AMinesweeper3DGameMode::AMinesweeper3DGameMode()
 
 	// use our custom HUD class
 	HUDClass = AMinesweeper3DHUD::StaticClass();
+
+	//Tile* tile;
+	//tile = (Tile*)GetWorld()->SpawnActor(Tile::StaticClass(), NAME_None, Location(0, 0, 0);
 }
